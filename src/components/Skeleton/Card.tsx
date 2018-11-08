@@ -7,7 +7,7 @@ import { Header } from './Header';
 
 const StyledCard = styled.section`
   display: grid;
-  grid-template-columns: 32px minmax(300px, 1fr) 200px;
+  grid-template-columns: 32px minmax(300px, auto) 200px;
   grid-template-rows: auto auto 32px;
   grid-template-areas:
     'header header media'
