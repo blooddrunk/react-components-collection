@@ -1,0 +1,45 @@
+---
+name: Shape
+menu: Skeleton
+route: /skeleton/shape
+---
+
+import { Playground, PropsTable } from 'docz'
+import { Shape } from './Shape'
+
+# Shape
+
+Basic skeleton unit
+
+## Properties
+
+<PropsTable of={Shape} />
+
+## Basic usage
+
+<Playground>
+  <Shape />
+</Playground>
+
+## With different sizes
+
+<Playground>
+  <Shape width="80%" />
+  <Shape width="80%" height="2em" />
+</Playground>
+
+
+## Square
+
+<Playground>
+  <Shape shape="square" />
+  <Shape shape="square" size="50px" />
+</Playground>
+
+
+## Circle
+
+<Playground>
+  <Shape shape="circle" />
+  <Shape shape="circle" size="50px" />
+</Playground>

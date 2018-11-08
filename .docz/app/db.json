@@ -3,12 +3,25 @@
     "title": "UI Components",
     "description": "My awesome app using docz",
     "themeConfig": {},
-    "menu": [],
+    "menu": [
+      "Getting Started",
+      {
+        "name": "Skeleton",
+        "menu": [
+          "Shape",
+          "Paragraph",
+          "Header",
+          "Card"
+        ]
+      }
+    ],
     "ordering": "descending",
     "version": "0.1.0",
     "repository": null,
     "native": false,
     "codeSandbox": true,
+    "base": "/react-components-collection/",
+    "port": 6006,
     "wrapper": "src/DoczWrapper",
     "typescript": true
   },
@@ -35,20 +48,96 @@
         }
       ]
     },
-    "src/components/Skeleton/Word.mdx": {
-      "name": "Word",
+    "src/components/Skeleton/Card.mdx": {
+      "name": "Card",
       "menu": "Skeleton",
-      "route": "/skeleton/word",
-      "id": "a98162c31b1396ec12a927ec34eccfc7",
-      "filepath": "src/components/Skeleton/Word.mdx",
+      "route": "/skeleton/card",
+      "id": "9b66a23dac565f9e959f7500f03eff38",
+      "filepath": "src/components/Skeleton/Card.mdx",
       "link": null,
-      "slug": "src-components-skeleton-word",
+      "slug": "src-components-skeleton-card",
       "order": 0,
       "headings": [
         {
           "depth": 1,
-          "slug": "word",
-          "value": "Word"
+          "slug": "put-it-all-together",
+          "value": "Put it all together"
+        },
+        {
+          "depth": 2,
+          "slug": "example-use-case",
+          "value": "Example use case"
+        }
+      ]
+    },
+    "src/components/Skeleton/Header.mdx": {
+      "name": "Header",
+      "menu": "Skeleton",
+      "route": "/skeleton/header",
+      "id": "7d67a69781ff1d2899c789111b8f509d",
+      "filepath": "src/components/Skeleton/Header.mdx",
+      "link": null,
+      "slug": "src-components-skeleton-header",
+      "order": 0,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "header",
+          "value": "Header"
+        },
+        {
+          "depth": 2,
+          "slug": "properties",
+          "value": "Properties"
+        },
+        {
+          "depth": 2,
+          "slug": "basic-usage",
+          "value": "Basic usage"
+        }
+      ]
+    },
+    "src/components/Skeleton/Paragraph.mdx": {
+      "name": "Paragraph",
+      "menu": "Skeleton",
+      "route": "/skeleton/paragraph",
+      "id": "d80270bacedb02424796aaa19832d27b",
+      "filepath": "src/components/Skeleton/Paragraph.mdx",
+      "link": null,
+      "slug": "src-components-skeleton-paragraph",
+      "order": 0,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "paragraph",
+          "value": "Paragraph"
+        },
+        {
+          "depth": 2,
+          "slug": "properties",
+          "value": "Properties"
+        },
+        {
+          "depth": 2,
+          "slug": "basic-usage",
+          "value": "Basic usage"
+        }
+      ]
+    },
+    "src/components/Skeleton/Shape.mdx": {
+      "name": "Shape",
+      "menu": "Skeleton",
+      "route": "/skeleton/shape",
+      "id": "8420956a615fc1c3d1a3defc245b96f7",
+      "filepath": "src/components/Skeleton/Shape.mdx",
+      "link": null,
+      "slug": "src-components-skeleton-shape",
+      "order": 0,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "shape",
+          "value": "Shape"
         },
         {
           "depth": 2,
@@ -62,8 +151,18 @@
         },
         {
           "depth": 2,
-          "slug": "using-different-kinds",
-          "value": "Using different kinds"
+          "slug": "with-different-sizes",
+          "value": "With different sizes"
+        },
+        {
+          "depth": 2,
+          "slug": "square",
+          "value": "Square"
+        },
+        {
+          "depth": 2,
+          "slug": "circle",
+          "value": "Circle"
         }
       ]
     }
