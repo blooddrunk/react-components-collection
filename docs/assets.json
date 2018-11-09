@@ -1,11 +1,10 @@
 {
-  "vendors.js": "/react-components-collection/static/js/vendors.36dc2b47.js",
-  "app.js": "/react-components-collection/static/js/app.171b680c.js",
-  "runtime~app.js": "/react-components-collection/static/js/runtime~app.d510d975595b7e8a802a.js",
-  "src-components-skeleton-card.js": "/react-components-collection/static/js/src-components-skeleton-card.83b82f13.js",
-  "src-components-skeleton-header.js": "/react-components-collection/static/js/src-components-skeleton-header.f274af9f.js",
-  "src-components-skeleton-paragraph.js": "/react-components-collection/static/js/src-components-skeleton-paragraph.0a4b2390.js",
-  "src-components-skeleton-shape.js": "/react-components-collection/static/js/src-components-skeleton-shape.d0e6368f.js",
-  "src-index.js": "/react-components-collection/static/js/src-index.08c6e1cc.js",
+  "vendors.js": "/react-components-collection/static/js/vendors.8ad9f8f9.js",
+  "app.js": "/react-components-collection/static/js/app.bc2463d7.js",
+  "runtime~app.js": "/react-components-collection/static/js/runtime~app.d6f72f59a1589464340f.js",
+  "src-components-skeleton-card.js": "/react-components-collection/static/js/src-components-skeleton-card.ee731bce.js",
+  "src-components-skeleton-paragraph.js": "/react-components-collection/static/js/src-components-skeleton-paragraph.c921f921.js",
+  "src-components-skeleton-shape.js": "/react-components-collection/static/js/src-components-skeleton-shape.562b5208.js",
+  "src-index.js": "/react-components-collection/static/js/src-index.5c463959.js",
   "index.html": "/react-components-collection/index.html"
 }

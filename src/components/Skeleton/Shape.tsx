@@ -48,7 +48,7 @@ export const Shape: React.SFC<ShapeProps> = ({
   duration,
   className,
 }) => {
-  let style;
+  let style: React.CSSProperties;
   switch (shape) {
     case 'square':
       style = {

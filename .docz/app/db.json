@@ -10,7 +10,6 @@
         "menu": [
           "Shape",
           "Paragraph",
-          "Header",
           "Card"
         ]
       }
@@ -67,33 +66,6 @@
           "depth": 2,
           "slug": "example-use-case",
           "value": "Example use case"
-        }
-      ]
-    },
-    "src/components/Skeleton/Header.mdx": {
-      "name": "Header",
-      "menu": "Skeleton",
-      "route": "/skeleton/header",
-      "id": "7d67a69781ff1d2899c789111b8f509d",
-      "filepath": "src/components/Skeleton/Header.mdx",
-      "link": null,
-      "slug": "src-components-skeleton-header",
-      "order": 0,
-      "headings": [
-        {
-          "depth": 1,
-          "slug": "header",
-          "value": "Header"
-        },
-        {
-          "depth": 2,
-          "slug": "properties",
-          "value": "Properties"
-        },
-        {
-          "depth": 2,
-          "slug": "basic-usage",
-          "value": "Basic usage"
         }
       ]
     },

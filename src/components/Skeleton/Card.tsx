@@ -3,7 +3,6 @@ import * as React from 'react';
 import styled from '../../theme';
 import { Shape } from './Shape';
 import { Paragraph } from './Paragraph';
-import { Header } from './Header';
 
 const StyledCard = styled.section`
   display: grid;
@@ -17,7 +16,10 @@ const StyledCard = styled.section`
   grid-row-gap: 16px;
 `;
 
-const StyledHeader = styled(Header)`
+const StyledHeader = styled(Shape).attrs({
+  height: '2em',
+  width: '50%',
+})`
   grid-area: header;
 `;
 
