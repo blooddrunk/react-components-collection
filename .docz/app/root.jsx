@@ -8,7 +8,7 @@ import db from './db.json'
 import Wrapper from 'src/DoczWrapper'
 
 const Root = () => (
-  <Theme db={db} imports={imports} hashRouter={false} wrapper={Wrapper} />
+  <Theme db={db} imports={imports} hashRouter={true} wrapper={Wrapper} />
 )
 
 // TODO: this is temporary until react-hot-loader fix hooks issues

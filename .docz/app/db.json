@@ -20,6 +20,7 @@
     "native": false,
     "codeSandbox": true,
     "base": "/react-components-collection/",
+    "hashRouter": true,
     "port": 6006,
     "wrapper": "src/DoczWrapper",
     "typescript": true

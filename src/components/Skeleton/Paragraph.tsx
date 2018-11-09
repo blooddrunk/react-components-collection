@@ -23,7 +23,7 @@ const StyledParagraph = styled<{ $width: string; $spacing: number }, 'div'>('div
 `;
 
 export const Paragraph: React.SFC<ParagraphProps> = ({ line, width, spacing, className }) => (
-  <StyledParagraph $spacing={spacing!} $width={width} className={className}>
+  <StyledParagraph $spacing={spacing!} $width={width!} className={className}>
     {Array.from(Array(line).keys()).map(index => (
       <Shape key={index} width={index % 2 === 0 ? '100%' : '80%'} />
     ))}
